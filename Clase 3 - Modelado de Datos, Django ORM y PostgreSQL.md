@@ -1009,7 +1009,7 @@ docker compose down
 Dentro del entorno virtual:
 
 ```bash
-pip install psycopg
+pip install "psycopg[binary]" 
 ```
 
 Podemos comprobar:
