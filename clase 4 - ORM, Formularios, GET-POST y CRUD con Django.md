@@ -1,33 +1,5 @@
 # Clase 4 — ORM, Formularios, GET/POST y CRUD con Django
 
-## Datos generales
-
-**Curso:** Desarrollo Backend con Django y API REST Framework
-
-**Duración:** 2 horas
-
-**Unidad:** ORM, vistas, formularios y CRUD
-
----
-
-# Objetivo de la clase
-
-Al finalizar la clase, el estudiante será capaz de:
-
-- Comprender cómo Django interactúa con la base de datos mediante el ORM.
-- Diferenciar un objeto de un QuerySet.
-- Realizar consultas utilizando `all()`, `filter()` y `get()`.
-- Comprender el ciclo de una petición HTTP en Django.
-- Diferenciar claramente los métodos `GET` y `POST`.
-- Crear formularios con `forms.Form` y `forms.ModelForm`.
-- Validar datos enviados desde un formulario.
-- Implementar un CRUD completo para el modelo `Producto`.
-- Utilizar `get_object_or_404()`.
-- Utilizar `redirect()`.
-- Aplicar el patrón Post/Redirect/Get.
-- Integrar modelos, formularios, vistas, URLs y templates.
-
----
 
 # Proyecto de la clase
 
@@ -1159,57 +1131,3 @@ Obtiene un objeto o responde con HTTP 404.
 ## redirect()
 
 Redirige al usuario después de una operación.
-
----
-
-# Conexión con la Clase 5
-
-En esta clase trabajamos con:
-
-```text
-HTML
-  |
-Formulario
-  |
-POST
-  |
-Vista
-  |
-ModelForm
-  |
-Modelo
-  |
-Base de datos
-```
-
-En la siguiente clase, con Django REST Framework, el flujo será:
-
-```text
-Cliente
-  |
-JSON
-  |
-HTTP POST
-  |
-View / ViewSet
-  |
-Serializer
-  |
-Modelo
-  |
-Base de datos
-```
-
-La diferencia principal será que pasaremos de trabajar con:
-
-```text
-HTML + Formularios
-```
-
-a trabajar con:
-
-```text
-JSON + Serializers + API REST
-```
-
-Esta clase deja preparado el proyecto para comenzar la implementación de APIs con Django REST Framework en la Clase 5.
