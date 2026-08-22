@@ -1,0 +1,106 @@
+@page {
+  size: A4;
+  margin: 2.2cm 2cm 2.2cm 2cm;
+  @top-center {
+    content: "Proyecto Final — TaskFlow";
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 8pt;
+    color: #888;
+  }
+  @bottom-center {
+    content: "Página " counter(page) " de " counter(pages);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 8pt;
+    color: #888;
+  }
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 11pt;
+  line-height: 1.5;
+  color: #2b2b2b;
+}
+
+h1 {
+  color: #1a3a5c;
+  font-size: 22pt;
+  border-bottom: 3pt solid #1a3a5c;
+  padding-bottom: 6pt;
+}
+
+h2 {
+  color: #1a3a5c;
+  font-size: 15pt;
+  border-bottom: 1pt solid #cccccc;
+  padding-bottom: 3pt;
+}
+
+h3 {
+  color: #2e5a88;
+  font-size: 12pt;
+}
+
+strong {
+  color: #1a3a5c;
+}
+
+hr {
+  border: none;
+  border-top: 1pt solid #cccccc;
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+
+blockquote {
+  border-left: 4pt solid #1a3a5c;
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  color: #444;
+  font-style: italic;
+}
+
+code {
+  font-family: "Courier New", Courier, monospace;
+  background: #f2f2f2;
+  padding: 1pt 3pt;
+  border-radius: 2pt;
+  font-size: 9.5pt;
+}
+
+pre {
+  background: #f6f6f6;
+  border: 1pt solid #ddd;
+  padding: 10pt;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 9pt;
+  white-space: pre-wrap;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 10.5pt;
+}
+
+th {
+  background-color: #1a3a5c;
+  color: white;
+  text-align: left;
+  padding: 6pt 8pt;
+  border: 1pt solid #ccc;
+}
+
+td {
+  padding: 6pt 8pt;
+  border: 1pt solid #ccc;
+}
+
+a {
+  color: #1a6fb0;
+  text-decoration: none;
+}
+
+ul, ol {
+  margin-bottom: 0.5em;
+}
